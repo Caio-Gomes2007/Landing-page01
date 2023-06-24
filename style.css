@@ -1,0 +1,357 @@
+*{
+  font-size: medium; 
+}body{
+    background-image: linear-gradient(to right, red,blue);
+    margin:0 auto;
+    color: white;
+}
+  header{
+    width: 60%;
+    margin-top: 10px;
+    background-color: #0000;
+    font-size: 20px;
+    color: white;
+    
+  }a{
+    color: white;
+    text-decoration: none;
+    
+  }a:hover{
+    border-bottom:3px purple solid 
+  }
+  header img{
+    margin-left: 50px ;
+    widows: 80%;
+    height: 80px;
+    
+  }nav{
+    margin-top: 1px;
+    width: 20%;
+    height: 80px;
+     float: right;
+     
+    }ul{
+    width: 30%;
+    height:30px;
+    display: flex;
+    float: right;
+  }
+
+  li{  
+        margin-left: 10px;
+        display: flex;
+         float: right;
+         margin-right:5px; 
+        list-style: none;
+        }
+  #sec{
+    font-size: 40px;
+      margin-top: 30px;
+       margin-left: 40px ;
+      float: left;
+      height: 750px;
+      width:50%;
+      margin-bottom:40px ;
+
+        }#sec h1{
+          font-size: 40px;
+        }
+  #sec p{
+    font-size: 20px;
+  }
+        #mid{
+    margin-bottom: -250px;
+    height: 320px;
+    width:40%;
+    float: right;
+    margin-right: 10px;
+    visibility: hidden;
+
+  }button{
+      height: 30px;
+      width: 55%;
+      font-size:5px;
+      border-radius: 10px;
+      background: orange;
+      opacity: 0.9;
+      border:none;
+      color: white
+  }button:hover{
+    background-color: orangered;
+  }h1{
+      font-size: 25px;
+  }.sobre{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-direction: column;
+    height: 1200px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    align-items: center;
+    text-align: justify;
+    font-size: 40px;
+    
+  }.sobre:nth-child(even){
+    color: white;
+    background-image: linear-gradient(to right, red,blue);
+    
+    
+  }#img-sobre{
+    margin: 0 auto;
+    margin-top:10px ;
+    width: 70%;
+    height: 200px;
+  }.sobre div{
+    width:80% ;
+  text-align: center;
+  }.sobre h1{
+      color: blue;
+      font-size: 30px;
+  }#sobre p{
+    font-size: 25px;
+
+  }#Contato{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+  }#img-cont{
+    width: 40%;
+    margin:0 auto;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    text-align:center;
+    visibility: hidden;
+  }#img-cont img{
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+
+  }#div-form{
+    margin:0 auto;
+    background-color: white;
+    color: blue;
+    height: 450px;
+    width: 60%;
+    margin-top: -480px;
+    margin-bottom: 60px;
+    border-radius: 22px;
+  }form{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top:20px;
+    text-align: center;
+  }form button{
+    margin-top: 20px;
+    margin-bottom:20px ;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 28px;
+    font-size: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+
+  }input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    border:1px solid blue;
+    border-radius: 12px;
+  }#campos{
+   margin: 0 auto;
+  }label{
+    float: left;
+    margin-top:10px ;
+  }footer{
+    background-color: white;
+    color: blue;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+  }footer p{
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+@media (min-width:680px) {
+ body{
+    background-image: linear-gradient(to right, red,blue);
+    margin:0 auto;
+    color: white;
+}
+  header{
+    width: 90%;
+    margin-top: 10px;
+    background-color: #0000;
+    font-size: 20px;
+    color: white;
+  }a{
+    color: white;
+    text-decoration: none;
+    
+    }a:hover{
+    border-bottom:3px purple solid 
+  }
+  header img{
+    margin-left: 50px ;
+    widows: 80%;
+    height: 80px;
+
+  }nav{
+     margin-top: 10px;
+    width: 50%;
+    height: 80px;
+     float: right;
+     
+    }ul{
+    width: 30%;
+    height:30px;
+    display: flex;
+    float: right;
+  }
+
+  li{  
+        margin-left: 10px;
+        display: flex;
+         float: right;
+         margin-right:5px; 
+        list-style: none;
+        }
+  #sec{
+    font-size: 20px;
+      margin-top: 60px;
+       margin-left: 40px ;
+      float: left;
+      height: 400px;
+      width:50%;
+
+        }
+
+    
+    #mid{
+    margin-top: 70px;
+    height: 320px;
+    width:40%;
+    float: right;
+    margin-right: 10px;
+    visibility: visible;
+  }button{
+      height: 30px;
+      width: 20%;
+    border-radius: 10px;
+    background: orange;
+    opacity: 0.9;
+    border:none;
+    color: white
+  }button:hover{
+    background-color: orangered;
+  }h1{
+      font-size: 35px;
+  }.sobre:nth-child(even){
+    color: white;
+    background-image: linear-gradient(to right, red,blue);
+  }.sobre{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    flex-direction: row;
+
+
+  }#img-sobre{
+    margin: 0 auto;
+    margin-top:10px ;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+  }.sobre div{
+  width:15% ;
+  margin: 5px;
+  margin-top: 30px;
+
+  border: 1px soid black;
+  text-align: center;
+  }.sobre h1{
+      color: blue;
+  }#sobre p{
+    font-size: 20px;
+  }#Contato{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }#img-cont{
+    width: 50%;
+    margin:0 auto;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    text-align:center;
+    visibility: visible;
+    float: left;
+  }#img-cont img{
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+
+  }#div-form{
+    margin:0 auto;
+    background-color: white;
+    color: blue;
+    height: 400px;
+    width: 25%;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    border-radius: 22px;
+    max-width: 70%;
+    min-height: 50%;
+  }form{
+    width: 80%;
+    max-width: 80%;
+    min-height: 50%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top:20px;
+    text-align: center;
+  }form button{
+    margin-top: 20px;
+    margin-bottom:20px ;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 28px;
+    font-size: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+
+  }input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    border:1px solid blue;
+    border-radius: 12px;
+  }#campos{
+   margin: 0 auto;
+  }label{
+    float: left;
+    margin-top:10px ;
+  }footer{
+    background-color: white;
+    color: blue;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+  }footer p{
+    margin-top: 20px;
+    font-size: 30px;
+  }
+}
